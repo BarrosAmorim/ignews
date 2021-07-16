@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import avatarImage from '../../public/images/avatar.svg'
+import { SubscribeButton } from '../components/SubscribeButton'
 import styles from './home.module.scss'
 
 export default function Home() {
@@ -17,8 +18,9 @@ export default function Home() {
             Tenha acesso a todas as publicações <br />
             <span>por R$ 9,90</span>
           </p>
+          <SubscribeButton />
         </section>
-        <Image src={avatarImage} alt="Garota programando" unoptimized />
+        <Image src={avatarImage} alt="Garota programando"/>
       </main>
     </>
 
