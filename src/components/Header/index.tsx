@@ -9,7 +9,7 @@ export const Header = () => {
             <div className={styles.headerContent}>
                 <Image src={logo} alt="logo" />
                 <nav>
-                    <a className={styles.active}>Home</a>
+                    <a className={styles.active}>Início</a>
                     <a>Posts</a>
                 </nav>
                 <SignInButton />
